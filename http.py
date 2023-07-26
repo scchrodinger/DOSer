@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import socket
 import threading
 target = input("Type here the target ip: ")
