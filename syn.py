@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from scapy.all import *
 from random import getrandbits
 target = input("Type here the target ip: ")
